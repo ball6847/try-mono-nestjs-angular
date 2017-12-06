@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { myForm, errorAggregator } from 'app-state/index';
+import { Component } from '@angular/core';
+import { errorAggregator, myForm } from 'app-state';
 
 @Component({
   selector: 'app-root',

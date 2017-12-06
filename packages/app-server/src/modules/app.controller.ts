@@ -1,5 +1,5 @@
-import { Get, Controller, Post, Body, HttpException } from '@nestjs/common';
-import { myForm, errorAggregator } from 'app-state';
+import { Body, Controller, HttpException, Post } from '@nestjs/common';
+import { errorAggregator, myForm } from 'app-state';
 
 @Controller()
 export class AppController {

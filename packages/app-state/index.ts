@@ -1,4 +1,4 @@
-import { FormGroup, FormControl, Validators, AbstractControl } from '@angular/forms';
+import { AbstractControl, FormControl, FormGroup, Validators } from '@angular/forms';
 
 export const myForm = new FormGroup({
   username: new FormControl('', Validators.required)
