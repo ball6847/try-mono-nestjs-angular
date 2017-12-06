@@ -1,0 +1,8 @@
+<form [formGroup]="form" (submit)="submit($event)">
+  <label>Username: </label>
+  <input type="text" placeholder="Username" formControlName="username">
+  <button type="submit">Submit</button>
+</form>
+
+
+<code>{{ errors | json }}</code>
